@@ -1,0 +1,60 @@
+name: preguntados_trivia
+description: A new Flutter project
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.0.0
+  http: ^0.13.0
+  json_annotation: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/questions.json
+    - assets/images/arepa.png
+    - assets/images/sombrero.png
+    - assets/images/fondo.gif
+    - assets/images/fondo2.png
+    - assets/images/personaje.gif
+    - assets/images/cultura.png
+    - assets/images/arte.png
+    - assets/images/historia.png
+    - assets/images/fauna.png
+    - assets/images/musica.png
+    - assets/images/comida.png
+    - assets/images/festividades.png
+    - assets/images/lugares.png
+    - assets/images/inventos.png
+    - assets/images/personajes.png
+    - assets/images/deportes.png
+    - assets/images/animales.png
+    - assets/images/cine.png
+    - assets/images/idiomas.png
+    - assets/images/famosos.png
+    - assets/images/random.png
+    - assets/images/colombia1.png
+    - assets/images/colombia2.png
+    - assets/images/colombia3.png
+    - assets/images/colombia4.png
+    - assets/images/colombia5.png
+    - assets/images/colombia6.png
+    - assets/images/colombia7.png
+    - assets/images/colombia8.png
+    - assets/images/colombia9.png
+    - assets/images/colombia10.png
+    - assets/images/felicitaciones.gif
+    - assets/images/tiempo.gif
+    - assets/images/gameover.gif

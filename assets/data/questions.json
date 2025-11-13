@@ -1,0 +1,18 @@
+[
+  {
+    "id": "q1",
+    "category": "Colombia: Cultura y Tradición",
+    "question": "¿Es el sombrero vueltiao un símbolo cultural de Colombia?",
+    "correct_answer": "Verdadero",
+    "incorrect_answers": ["Falso"],
+    "image": "assets/images/sombrero.png"
+  },
+  {
+    "id": "q2",
+    "category": "Colombia: Cultura y Tradición",
+    "question": "¿La arepa es típica de Colombia?",
+    "correct_answer": "Verdadero",
+    "incorrect_answers": ["Falso"],
+    "image": "assets/images/arepa.png"
+  }
+]

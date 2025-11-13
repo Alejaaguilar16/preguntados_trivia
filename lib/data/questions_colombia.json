@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "image": "assets/images/colombia1.png",
+    "text": "¿Cuál es el baile típico más famoso de Colombia?",
+    "options": ["Cumbia", "Salsa", "Tango", "Merengue"],
+    "answer": "Cumbia"
+  },
+  {
+    "id": "2",
+    "image": "assets/images/colombia2.png",
+    "text": "¿Cuál es la flor nacional de Colombia?",
+    "options": ["Rosa", "Orquídea", "Tulipán", "Girasol"],
+    "answer": "Orquídea"
+  },
+  {
+    "id": "3",
+    "image": "assets/images/colombia3.png",
+    "text": "¿Qué plato es típico de Antioquia?",
+    "options": ["Ajiaco", "Bandeja paisa", "Sancocho", "Lechona"],
+    "answer": "Bandeja paisa"
+  },
+  {
+    "id": "4",
+    "image": "assets/images/colombia4.png",
+    "text": "¿Qué color NO está en la bandera de Colombia?",
+    "options": ["Rojo", "Amarillo", "Verde", "Azul"],
+    "answer": "Verde"
+  },
+  {
+    "id": "5",
+    "image": "assets/images/colombia5.png",
+    "text": "¿Cuál es el principal producto de exportación colombiano?",
+    "options": ["Café", "Cacao", "Petróleo", "Banano"],
+    "answer": "Café"
+  },
+  {
+    "id": "6",
+    "image": "assets/images/colombia6.png",
+    "text": "¿Qué cordillera cruza el territorio colombiano?",
+    "options": ["Cordillera de los Andes", "Himalaya", "Alpes", "Sierra Madre"],
+    "answer": "Cordillera de los Andes"
+  },
+  {
+    "id": "7",
+    "image": "assets/images/colombia7.png",
+    "text": "¿Qué ciudad es conocida como 'la ciudad de la eterna primavera'?",
+    "options": ["Bogotá", "Cali", "Medellín", "Cartagena"],
+    "answer": "Medellín"
+  },
+  {
+    "id": "8",
+    "image": "assets/images/colombia8.png",
+    "text": "¿En qué año fue proclamada la independencia de Colombia?",
+    "options": ["1810", "1821", "1800", "1830"],
+    "answer": "1810"
+  },
+  {
+    "id": "9",
+    "image": "assets/images/colombia9.png",
+    "text": "¿Qué escritor colombiano ganó el Premio Nobel de Literatura?",
+    "options": ["Gabriel García Márquez", "Jorge Isaacs", "William Ospina", "Laura Restrepo"],
+    "answer": "Gabriel García Márquez"
+  },
+  {
+    "id": "10",
+    "image": "assets/images/colombia10.png",
+    "text": "¿Cuál es el deporte más popular en Colombia?",
+    "options": ["Ciclismo", "Béisbol", "Fútbol", "Tejo"],
+    "answer": "Fútbol"
+  }
+]
