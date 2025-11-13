@@ -241,7 +241,7 @@ class _GamePageState extends State<GamePage> {
       body: Stack(
         children: [
           Positioned.fill(child: Image.asset('assets/images/fondo2.png', fit: BoxFit.cover)),
-          Container(color: Colors.black.withOpacity(0.3)),
+          Container(), ////////COLORRRR
           SafeArea(
             child: Center(
               child: _showCountdown
@@ -269,26 +269,27 @@ class _GamePageState extends State<GamePage> {
                           child: Text(q.text, textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold)),
                         ),
                         const SizedBox(height: 30),
-                        // Opciones
-                        ...q.options.map((option) {
-                          Color btnColor = Colors.pinkAccent;
-                          if (c.selectedOption != null) {
-                            if (option == q.answer) btnColor = Colors.green;
-                            else if (option == c.selectedOption && option != q.answer) btnColor = Colors.red;
-                          }
-                          return Padding(
-                            padding: const EdgeInsets.symmetric(vertical: 6),
-                            child: ElevatedButton(
-                              style: ElevatedButton.styleFrom(
-                                backgroundColor: btnColor,
-                                minimumSize: const Size(250, 50),
-                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                              ),
-                              onPressed: c.selectedOption == null ? () => _submitAnswer(option) : null,
-                              child: Text(option, style: const TextStyle(fontSize: 18, color: Colors.white)),
-                            ),
-                          );
-                        }).toList(),
+/// Opciones
+...q.options.map((option) {
+  Color btnColor = Colors.pinkAccent;
+  if (c.selectedOption != null) {
+    if (option == q.answer) btnColor = Colors.green;
+    else if (option == c.selectedOption && option != q.answer) btnColor = Colors.red;
+  }
+  return Padding(
+    padding: const EdgeInsets.symmetric(vertical: 6),
+    child: ElevatedButton(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: btnColor,
+        minimumSize: const Size(250, 50),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      ),
+      onPressed: c.selectedOption == null ? () => _submitAnswer(option) : () {},
+      child: Text(option, style: TextStyle(fontSize: 18, color: Colors.white)),
+    ),
+  );
+}).toList(),
+
                       ],
                     ),
             ),
