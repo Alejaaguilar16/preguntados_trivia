@@ -94,6 +94,12 @@ Dart SDK
 Android Studio o VS Code con el plugin de Flutter
 Emulador/Android o un dispositivo físico conectado
 
+Clonar el repositorio: git clone https://github.com/Alejaaguilar16/preguntados_trivia.git
+cd preguntados_trivia
+Instalar dependencias: flutter pub get
+Ejecutar la app: flutter run
+Ejecutar las pruebas unitarias: flutter test
+
 # Pruebas unitarias
 
 El proyecto incluye pruebas unitarias en la carpeta `/test`:
@@ -110,3 +116,16 @@ Prueba el arranque básico de la app (`MyApp`) y validaciones iniciales de la in
 ejectndo las pruebas con:
 ```bash
 flutter test *00:06 +3: All tests passed!*
+
+
+# Video demostrativo
+
+Flujo principal de la aplicación
+Cómo se refleja la arquitectura limpia en el código
+Dónde y cómo se aplicó el patrón Repository
+Interacción con el juego: login-inicio-trivia-reinicio/salida
+
+# Autora
+
+María Alejandra Patiño Aguilar
+Proyecto final de Flutter/Arquitectura Limpia y Patrón de Diseño
